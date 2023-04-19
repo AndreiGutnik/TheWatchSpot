@@ -1,13 +1,63 @@
 @font-face {
     font-family: 'Neue Montreal';
-    src: url('./fonts/NeueMontreal-Regular.eot');
+    src: url('/fonts/NeueMontreal-Regular.eot');
     src: local('Neue Montreal Regular'), local('NeueMontreal-Regular'),
-        url('./fonts/NeueMontreal-Regular.eot?#iefix') format('embedded-opentype'),
-        url('./fonts/NeueMontreal-Regular.woff2') format('woff2'),
-        url('./fonts/NeueMontreal-Regular.woff') format('woff'),
-        url('./fonts/NeueMontreal-Regular.ttf') format('truetype');
-    font-weight: normal;
+        url('/fonts/NeueMontreal-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/NeueMontreal-Regular.woff2') format('woff2'),
+        url('/fonts/NeueMontreal-Regular.woff') format('woff'),
+        url('/fonts/NeueMontreal-Regular.ttf') format('truetype');
+    font-weight: 400;
     font-style: normal;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('/fonts/Epilogue-Light.woff2') format('woff2'),
+       url('/fonts/Epilogue-Light.woff') format('woff'),
+       url('/fonts/Epilogue-Light.ttf') format('truetype');
+       font-weight: 300;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('/fonts/Epilogue-Regular.woff2') format('woff2'),
+       url('/fonts/Epilogue-Regular.woff') format('woff'),
+       url('/fonts/Epilogue-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('/fonts/Epilogue-SemiBold.woff2') format('woff2'),
+       url('/fonts/Epilogue-SemiBold.woff') format('woff'),
+       url('/fonts/Epilogue-SemiBold.ttf') format('truetype');
+       font-weight: 600;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('/fonts/PlusJakartaSans-Regular.woff2') format('woff2'),
+       url('/fonts/PlusJakartaSans-Regular.woff') format('woff'),
+       url('/fonts/PlusJakartaSans-Regular.ttf') format('truetype');
+       font-weight: 400;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('/fonts/PlusJakartaSans-Medium.woff2') format('woff2'),
+       url('/fonts/PlusJakartaSans-Medium.woff') format('woff'),
+       url('/fonts/PlusJakartaSans-Medium.ttf') format('truetype');
+       font-weight: 500;
+       font-display: swap;
+       font-style: normal;
 }
 
 body {
