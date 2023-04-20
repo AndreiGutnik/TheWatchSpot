@@ -11,6 +11,7 @@
 @import url('./components/hero.css');
 /* About us */
 /* Catalog */
+@import url('./components/catalog.css');
 /* New watches */
 /* Sale */
 @import url('./layout/footer.css');
