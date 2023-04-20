@@ -68,12 +68,11 @@ body {
 }
 
 .container {
-  max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
 }
 
-@media screen and(min-width:375px) {
+@media screen and (max-width: 767px) {
   .container {
     width: 375px;
   }
@@ -87,7 +86,7 @@ body {
 
 @media screen and (min-width: 1440px) {
   .container {
-    width: 1440px;
+    width: 1216px;
   }
 }
 
@@ -97,6 +96,7 @@ body {
   line-height: 1.1;
   letter-spacing: -0.02em;
   color: var(--dark-green);
+  margin-bottom: 40px;
 }
 
 .text {
