@@ -1,0 +1,142 @@
+.hero {
+    padding-top: 122px;
+    padding-bottom: 40px;
+    background-color: var(--black);
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: calc(40/38);
+
+    letter-spacing: -0.04em;
+
+    color: var(--white);
+}
+
+.hero-content-bottom {
+    margin-top: 60px;
+}
+
+.hero-btn {
+    display: flex;
+    margin-top: 20px;
+    gap: 12px;
+}
+
+.hero-btn-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--white);
+    border-radius: 8px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.hero-btn-icon {
+    display: block;
+    stroke: var(--white);
+}
+
+.swiper {
+    margin-bottom: 40px;
+}
+
+.hero-text-top {
+    display: none;
+}
+
+.hero-text-top,
+.hero-text-bottom {
+    max-width: 248px;
+    margin-left: 87px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+
+    letter-spacing: -0.02em;
+
+    color: var(--white);
+}
+
+.hero-main-img {
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .hero {
+        padding-top: 148px;
+        padding-bottom: 64px;
+    }
+
+    .hero-title {
+        font-size: 60px;
+        line-height: calc(62/60);
+    }
+
+    .swiper {
+        margin-bottom: 0;
+    }
+
+    .hero-btn-slider {
+        width: 40px;
+        height: 40px;
+    }
+
+    .hero-markup-tablet {
+        display: flex;
+        gap: 20px;
+    }
+
+    .hero-text-bottom {
+        padding-top: 74px;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+
+    .hero-content-top {
+        display: flex;
+        gap: 144px;
+        margin-bottom: 43px;
+    }
+
+    .hero-content-bottom {
+        margin-top: 0;
+        display: flex;
+        gap: 64px;
+        align-items: flex-end;
+    }
+
+    .hero-title {
+        width: 750px;
+    }
+
+    .hero-text-top {
+        display: block;
+        max-width: 282px;
+        margin-left: 0;
+    }
+
+    .hero-text-bottom {
+        display: none;
+    }
+
+    .hero-main-img {
+        margin-top: 0;
+    }
+}
