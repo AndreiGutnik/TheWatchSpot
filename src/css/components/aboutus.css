@@ -36,7 +36,6 @@ img {
 
 @media screen and (min-width: 768px) {
   .aboutus {
-    padding: 0 32px;
     margin-top: 64px;
   }
 
@@ -61,7 +60,9 @@ img {
 
 @media screen and (min-width: 1280px) {
   .aboutus {
-    column-gap: 86px;
+    column-gap: 110px;
+    margin-top: 0;
+    padding: 80px 20px;
   }
 
   .aboutus-texts {
@@ -69,7 +70,6 @@ img {
   }
 
   .aboutus-text {
-    width: calc(100% - 20px / 2);
     max-width: 439px;
   }
   .aboutus-text:last-child {
