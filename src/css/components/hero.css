@@ -1,4 +1,5 @@
 .hero {
+    min-width: 375px;
     padding-top: 122px;
     padding-bottom: 40px;
     background-color: var(--black);
@@ -12,10 +13,6 @@
     letter-spacing: -0.04em;
 
     color: var(--white);
-}
-
-.hero-content-bottom {
-    margin-top: 60px;
 }
 
 .hero-btn {
@@ -51,11 +48,7 @@
 
 .swiper {
     position: relative;
-    max-width: 266px;
-    padding-bottom: 52px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 40px;
+    width: 266px;
 }
 
 .hero-btn-slider-next:hover,
@@ -76,7 +69,7 @@
     position: absolute;
     text-align: right;
     right: 0;
-    bottom: 0;
+    bottom: 5px;
 }
 
 .hero-swiper-pagination {
@@ -88,7 +81,6 @@
 
 .hero-text {
     max-width: 248px;
-    margin-left: 87px;
     font-weight: 300;
     font-size: 14px;
     line-height: 18px;
@@ -98,23 +90,35 @@
     color: var(--white);
 }
 
-.hero-main-img {
-    margin-top: 40px;
-}
 
 @media screen and (max-width: 767px) {
-    .hero {
-        width: 375px;
-        margin: 0 auto;
+    .swiper {
+        padding-bottom: 52px;
+        margin-bottom: 40px;
+    }
+
+    .hero-text {
+        margin-left: 87px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .hero-text {
+        padding-top: 74px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .hero-content-wrap {
+        margin-top: 60px;
+    }
+
+    .hero-main-img {
+        margin-top: 40px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-
     .hero {
         padding-top: 148px;
         padding-bottom: 64px;
@@ -126,21 +130,13 @@
     }
 
     .swiper {
-        max-width: 436px;
-        margin-bottom: 0;
+        width: 436px;
         padding-bottom: 60px;
     }
 
-    .hero-content-middle {
+    .hero-content {
         display: flex;
         gap: 20px;
-        min-width: 0;
-    }
-
-    .hero-text {
-        padding-top: 74px;
-        margin-left: 0;
-        margin-bottom: 0;
     }
 
     .hero-btn-slider-next,
@@ -151,14 +147,11 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        padding-left: 20px;
-        padding-right: 20px;
+    .hero-container {
+        position: relative;
     }
 
-    .hero-content-bottom {
-        position: relative;
-        margin-top: 0;
+    .hero-content-wrap {
         display: flex;
         gap: 64px;
         align-items: flex-end;
@@ -172,12 +165,7 @@
     .hero-text {
         position: absolute;
         max-width: 282px;
-        padding-top: 0;
-        top: -167px;
-        right: 0;
-    }
-
-    .hero-main-img {
-        margin-top: 0;
+        top: 0;
+        right: 20px;
     }
 }
