@@ -2,6 +2,10 @@
 	--black: #141414;
 	--white: #FFFFFF;
 	--dark-green: #1E2827;
+<<<<<<< HEAD
 	--main-background: #FBFBFB;
+=======
+  --main-background: #FBFBFB;
+>>>>>>> 06f3e4bb1f9f9719421bd23c39fa1ee64b54e10f
 	--action: cubic-bezier(0.4, 0, 0.2, 1);
 }
