@@ -64,7 +64,7 @@ color: var(--black);
     }
     .maincontainer{
         position: relative;
-        width:335px;
+        width:100%;
         height: 410px;
     }
     .thecard{
@@ -80,14 +80,14 @@ color: var(--black);
     }
     .thefront{
         position: absolute;
-        width: 335px;
-        height: 410px;
+        width: 100%;
+        height: 100%;
         backface-visibility: hidden;
     }
     .theback{
         position: absolute;
-        width: 335px;
-        height: 410px;
+        width: 100%;
+        height: 100%;
         backface-visibility: hidden;
         background-color: var(--dark-green);
         color: var(--white);
@@ -140,7 +140,7 @@ gap: 24px;
 .watches-item{
     width: 276px;
     height: 375px;
-    flex-basis: calc((100% - 24px * 4) / 5);}
+    flex-basis: calc((100% - 24px * 3) / 4);}
     .title{
         margin-bottom: 64px;
     }
