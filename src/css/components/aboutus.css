@@ -29,9 +29,10 @@
   color: var(--black);
 }
 
-img {
-  background-color: black;
-  width: 100%;
+.gif {
+  width: 335px;
+  height: 365px;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
@@ -56,6 +57,11 @@ img {
   .aboutus-text:last-child {
     min-width: 250px;
   }
+
+  .gif {
+    width: 704px;
+    height: 465px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -76,8 +82,9 @@ img {
     max-width: 380px;
   }
 
-  img {
+  .gif {
     width: 892px;
+    height: 500px;
     margin-left: auto;
   }
 }
