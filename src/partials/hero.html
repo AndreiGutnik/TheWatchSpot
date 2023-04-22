@@ -1,68 +1,234 @@
-<section class="hero container">
-  <div class="hero-content-top">
-    <h1 class="hero-title">Welcome to our collection of premium watches</h1>
-    <p class="hero-text-top">
-      Our watches are not just timepieces, but also an expression of your
-      personality and lifestyle. From classic designs to modern ones, we have a
-      watch to suit every taste and occasion.
-    </p>
-  </div>
-  <div class="hero-content-bottom">
-    <div class="hero-markup-tablet">
-      <div class="hero-slider">
-        <picture>
+<section class="hero">
+  <div class="container">
+    <div class="hero-content-top">
+      <h1 class="hero-title">Welcome to our collection of premium watches</h1>
+    </div>
+    <div class="hero-content-bottom">
+      <div class="hero-content-middle">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="image-slider-image">
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/hero/hero-watch1@1x-dest.jpg 1x,
+                      ./images/hero/hero-watch1@2x-dest.jpg 2x
+                    "
+                    width="436"
+                    height="255"
+                  />
+                  <source
+                    media="(min-width: 375px)"
+                    srcset="
+                      ./images/hero/hero-watch1@1x-mob.jpg 1x,
+                      ./images/hero/hero-watch1@2x-mob.jpg 2x
+                    "
+                    width="266"
+                    height="200"
+                  />
+                  <img
+                    class="hero-slider-img"
+                    src="./images/hero/hero-watch1@1x-mob.jpg"
+                    alt="Wristwatch"
+                    width="266"
+                    height="200"
+                  />
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-slider-image">
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/hero/hero-watch2@1x-dest.jpg 1x,
+                      ./images/hero/hero-watch2@2x-dest.jpg 2x
+                    "
+                    width="436"
+                    height="255"
+                  />
+                  <source
+                    media="(min-width: 375px)"
+                    srcset="
+                      ./images/hero/hero-watch2@1x-mob.jpg 1x,
+                      ./images/hero/hero-watch2@2x-mob.jpg 2x
+                    "
+                    width="266"
+                    height="200"
+                  />
+                  <img
+                    class="hero-slider-img"
+                    src="./images/hero/hero-watch2@1x-mob.jpg"
+                    alt="Wristwatch"
+                    width="266"
+                    height="200"
+                  />
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-slider-image">
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/hero/hero-watch3@1x-dest.jpg 1x,
+                      ./images/hero/hero-watch3@2x-dest.jpg 2x
+                    "
+                    width="436"
+                    height="255"
+                  />
+                  <source
+                    media="(min-width: 375px)"
+                    srcset="
+                      ./images/hero/hero-watch3@1x-mob.jpg 1x,
+                      ./images/hero/hero-watch3@2x-mob.jpg 2x
+                    "
+                    width="266"
+                    height="200"
+                  />
+                  <img
+                    class="hero-slider-img"
+                    src="./images/hero/hero-watch3@1x-mob.jpg"
+                    alt="Wristwatch"
+                    width="266"
+                    height="200"
+                  />
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-slider-image">
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/hero/hero-watch4@1x-dest.jpg 1x,
+                      ./images/hero/hero-watch4@2x-dest.jpg 2x
+                    "
+                    width="436"
+                    height="255"
+                  />
+                  <source
+                    media="(min-width: 375px)"
+                    srcset="
+                      ./images/hero/hero-watch4@1x-mob.jpg 1x,
+                      ./images/hero/hero-watch4@2x-mob.jpg 2x
+                    "
+                    width="266"
+                    height="200"
+                  />
+                  <img
+                    class="hero-slider-img"
+                    src="./images/hero/hero-watch4@1x-mob.jpg"
+                    alt="Wristwatch"
+                    width="266"
+                    height="200"
+                  />
+                </picture>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-slider-image">
+                <picture>
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/hero/hero-watch5@1x-dest.jpg 1x,
+                      ./images/hero/hero-watch5@2x-dest.jpg 2x
+                    "
+                    width="436"
+                    height="255"
+                  />
+                  <source
+                    media="(min-width: 375px)"
+                    srcset="
+                      ./images/hero/hero-watch5@1x-mob.jpg 1x,
+                      ./images/hero/hero-watch5@2x-mob.jpg 2x
+                    "
+                    width="266"
+                    height="200"
+                  />
+                  <img
+                    class="hero-slider-img"
+                    src="./images/hero/hero-watch5@1x-mob.jpg"
+                    alt="Wristwatch"
+                    width="266"
+                    height="200"
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-btn">
+            <button type="button" class="hero-btn-slider-prev">
+              <svg class="hero-btn-icon" width="24" height="24">
+                <use
+                  href="./images/hero/hero-icons.svg#icon-chevron-left"
+                ></use>
+              </svg>
+            </button>
+
+            <button type="button" class="hero-btn-slider-next">
+              <svg class="hero-btn-icon" width="24" height="24">
+                <use
+                  href="./images/hero/hero-icons.svg#icon-chevron-right"
+                ></use>
+              </svg>
+            </button>
+          </div>
+          <div class="hero-swiper-pagination"></div>
+        </div>
+
+        <p class="hero-text">
+          Our watches are not just timepieces, but also an expression of your
+          personality and lifestyle. From classic designs to modern ones, we
+          have a watch to suit every taste and occasion.
+        </p>
+      </div>
+      <div class="hero-main-image">
+        <picture
+          ><source
+            media="(min-width: 1280px)"
+            srcset="
+              ./images/hero/hero@1x-dest.jpg 1x,
+              ./images/hero/hero@2x-dest.jpg 2x
+            "
+            width="676"
+            height="394"
+          />
           <source
             media="(min-width: 768px)"
-            srcset="../images/watch1_tablet.jpg"
-            width="436"
-            height="255"
+            srcset="
+              ./images/hero/hero@1x-tabl.jpg 1x,
+              ./images/hero/hero@2x-tabl.jpg 2x
+            "
+            width="704"
+            height="410"
+          />
+          <source
+            media="(min-width: 375px)"
+            srcset="
+              ./images/hero/hero@1x-mob.jpg 1x,
+              ./images/hero/hero@2x-mob.jpg 2x
+            "
+            width="335"
+            height="410"
           />
           <img
-            class="hero-slider-img"
-            src="./images/watch1_mobile.jpg"
-            alt="Wristwatch"
-            width="266"
-            height="200"
+            class="hero-main-img"
+            src="./images/hero/hero@1x-mob.jpg"
+            alt="Watch on hand"
+            width="335"
+            height="410"
           />
         </picture>
-        <div class="hero-btn">
-          <button class="hero-btn-slider">
-            <svg class="hero-btn-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-chevron-left"></use>
-            </svg></button
-          ><button class="hero-btn-slider">
-            <svg class="hero-btn-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-chevron-right"></use>
-            </svg>
-          </button>
-        </div>
       </div>
-      <p class="hero-text-bottom">
-        Our watches are not just timepieces, but also an expression of your
-        personality and lifestyle. From classic designs to modern ones, we have
-        a watch to suit every taste and occasion.
-      </p>
     </div>
-    <picture
-      ><source
-        media="(min-width: 1280px)"
-        srcset="../images/watch-on-hand_desktop.jpg"
-        width="676"
-        height="394"
-      />
-      <source
-        media="(min-width: 768px)"
-        srcset="../images/watch-on-hand_tablet.jpg"
-        width="704"
-        height="410"
-      />
-      <img
-        class="hero-main-img"
-        src="../images/watch-on-hand_mobile.jpg"
-        alt="Watch on hand"
-        width="335"
-        height="410"
-      />
-    </picture>
   </div>
 </section>

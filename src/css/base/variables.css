@@ -1,6 +1,6 @@
 :root {
-  --black: #141414;
+	--black: #141414;
 	--white: #FFFFFF;
 	--dark-green: #1E2827;
-	--action: cubic-bezier(0.4, 0, 0.2, 1); 
+	--action: cubic-bezier(0.4, 0, 0.2, 1);
 }
