@@ -65,6 +65,8 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   margin-bottom: 16px;
+  transition-duration: 250ms;
+  transition-timing-function: var(--action);
 }
 .footer-nav-list-item:hover,
 .footer-nav-list-item:focus {
@@ -87,6 +89,8 @@
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
+  transition-duration: 250ms;
+  transition-timing-function: var(--action);
 }
 .footer-soc-link:hover,
 .footer-soc-link:focus {
