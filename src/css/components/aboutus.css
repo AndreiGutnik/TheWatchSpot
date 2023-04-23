@@ -2,11 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 .aboutus-title {
-  font-family: 'Epilogue';
   font-weight: 600;
   font-size: 32px;
   line-height: 1.25;
@@ -21,9 +20,8 @@
 }
 
 .aboutus-text {
-  font-family: 'Epilogue';
   font-weight: 300;
-  font-size: 14px;
+
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--black);
@@ -36,10 +34,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .aboutus {
-    margin-top: 64px;
-  }
-
   .aboutus-title {
     min-width: 174px;
     font-size: 40px;
@@ -48,10 +42,6 @@
   .aboutus-texts {
     flex-wrap: nowrap;
     width: 490px;
-  }
-
-  .aboutus-text {
-    width: calc(100% - 20px / 2);
   }
 
   .aboutus-text:last-child {
@@ -67,7 +57,6 @@
 @media screen and (min-width: 1280px) {
   .aboutus {
     column-gap: 110px;
-    margin-top: 0;
     padding: 80px 20px;
   }
 
