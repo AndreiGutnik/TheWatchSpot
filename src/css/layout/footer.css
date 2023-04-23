@@ -6,14 +6,12 @@
   text-decoration: none;
   font-style: normal;
 }
-.list {
-  list-style: none;
-}
 .footer-div {
-  display: flex;
-  flex-wrap: wrap;
   padding-top: 40px;
   padding-bottom: 20px;
+}
+.footer-logo-nav-div {
+  display: flex;
 }
 .logo-div {
   margin-bottom: 40px;
@@ -27,29 +25,40 @@
   width: 70px;
   height: 70px;
   right: 15px;
+  bottom: 12px;
   fill: #fff;
 }
+.logo-icon:hover,
+.logo-icon:focus {
+  scale: 1.1;
+}
 .tel {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   text-transform: uppercase;
+  display: block;
+}
+.tel:hover,
+.tel:focus {
+  scale: 1.1;
 }
 .map-link {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   margin-top: 20px;
+  display: block;
+}
+.map-link:hover,
+.map-link:focus {
+  scale: 1.1;
 }
 .footer-nav {
   margin-left: 136px;
-}
-.footer-nav-list {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 16px;
 }
 .footer-nav-list-item {
   font-weight: 400;
@@ -57,25 +66,33 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.footer-nav-list-item:hover,
+.footer-nav-list-item:focus {
+  scale: 1.1;
 }
 .footer-soc-list {
   display: flex;
-  justify-content: center;
   gap: 14px;
   margin-bottom: 80px;
 }
 .footer-soc-link {
   display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 8px;
-gap: 8px;
-isolation: isolate;
-width: 40px;
-height: 40px;
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+  isolation: isolate;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  scale: 1.1;
 }
 .footer-soc-icon {
   fill: #fff;
@@ -106,6 +123,9 @@ border-radius: 10px;
   .footer-div {
     padding: 80px 20px 20px;
   }
+  .footer-logo-soc-div {
+    display: flex;
+  }
   .logo-div {
     margin-bottom: 152px;
   }
@@ -125,12 +145,10 @@ border-radius: 10px;
   .footer-nav {
     margin-left: 142px;
   }
-  .footer-nav-list {
-    gap: 18px;
-  }
   .footer-nav-list-item {
     font-size: 18px;
     line-height: 1.33;
+    margin-bottom: 18px;
   }
   .footer-soc-div {
     gap: 16px;
