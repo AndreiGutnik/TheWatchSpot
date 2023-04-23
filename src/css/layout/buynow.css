@@ -87,7 +87,7 @@ body.modal-open {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.02em;
-    color: var(--text-price-color);
+    color: rgba(20, 20, 20, 0.4);
 }
 
 .input-wraper {
