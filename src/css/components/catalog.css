@@ -130,7 +130,7 @@ color: rgba(255, 255, 255, 0.5);
     }
 .watches-list{
 row-gap: 64px;
-gap: 24px;
+column-gap: 24px;
 }
 
 .watches-item{
