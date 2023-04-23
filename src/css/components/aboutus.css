@@ -18,9 +18,8 @@
   margin-bottom: 40px;
 }
 
-.aboutus-text {
+.text {
   font-weight: 300;
-
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: var(--black);
@@ -78,10 +77,10 @@
   }
 
   .aboutus-text {
-    max-width: 439px;
+    width: 439px;
   }
   .aboutus-text:last-child {
-    max-width: 380px;
+    width: 380px;
   }
 
   .gif {
