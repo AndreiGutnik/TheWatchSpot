@@ -46,6 +46,7 @@
     min-width: 174px;
     font-size: 40px;
     line-height: 1.1;
+    margin-bottom: 0;
   }
   .aboutus-texts {
     flex-wrap: nowrap;
