@@ -47,6 +47,11 @@ body {
   height: 24px;
   background-color: transparent;
   z-index: 2;
+  transition: scale var(--action);
+}
+.menu-btn:hover,
+.menu-btn:focus {
+  transform: scale(1.2);
 }
 
 .open-menu {
