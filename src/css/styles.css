@@ -10,9 +10,9 @@
 @import url('./layout/header.css');
 @import url('./components/hero.css');
 @import url('./components/aboutus.css');
-
 /* Catalog */
 /* New watches */
-@import url('./components/sale.css');
+/* Sale */
+@import url('./layout/footer.css');
 /* Buy now */
 /* Burger menu */
