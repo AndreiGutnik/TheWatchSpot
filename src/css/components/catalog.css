@@ -9,12 +9,7 @@
     text-align: left;
     }
 .watches-list{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin-bottom: 40px;
+   margin-bottom: 40px; 
 }
 .watches-name{
     font-family: 'Epilogue', sans-serif;
@@ -33,17 +28,20 @@ color: var(--black);
     margin-bottom: 83px;
     color: rgba(20, 20, 20, 0.5);
     margin-bottom: 40px;}
-    .watches-item{ 
-        width: 336px;
-    height: 410px;
-}
+    
+    @media screen and (max-width: 767px) {
+    .watches-item:not(:last-child){ 
+        margin-bottom: 40px;
+    }} 
 .photo{
     margin: 0 auto;
 }
     .watches-item.desktop{
         display:none;
     }
-  
+
+    
+ 
     
     .buy-button{
         display: flex;
@@ -130,10 +128,12 @@ color: rgba(255, 255, 255, 0.5);
         .catalog{
             padding-bottom: 128px;
         }
-        .watches-list{
-        flex-direction: row;
+        .watches-list{ display: flex;
+            justify-content: center;
+        
+            flex-wrap: wrap;  
     gap: 40px 32px;
-    justify-content: flex-start
+    
     }
 .watches-item{flex-basis: calc((100% - 32px) / 2);}}
  
@@ -152,8 +152,7 @@ margin-bottom: 80px;
 }
 
 .watches-item{
-    width: 276px;
-    height: 375px;
+
     flex-basis: calc((100% - 24px * 3) / 4);}
     .title{
         margin-bottom: 64px;
