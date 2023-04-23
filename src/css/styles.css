@@ -7,7 +7,7 @@
 @import url('./base/reset.css');
 @import url('./base/variables.css');
 @import url('./base/bases.css');
-/* Header */
+@import url('./layout/header.css');
 /* Hero */
 @import url('./components/aboutus.css');
 /* Catalog */
