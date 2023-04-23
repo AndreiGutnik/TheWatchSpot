@@ -1,2 +1,2 @@
 // import './js/'
-// import './js/mob-menu.js'
+import './mob-menu'
