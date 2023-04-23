@@ -7,12 +7,12 @@
 @import url('./base/reset.css');
 @import url('./base/variables.css');
 @import url('./base/bases.css');
-@import url('./layout/header.css');
-@import url('./components/hero.css');
-/* About us */
+/* Header */
+/* Hero */
+@import url('./components/aboutus.css');
 /* Catalog */
 /* New watches */
-/* Sale */
-@import url('./layout/footer.css');
+@import url('./components/sale.css');
+/* Footer */
 /* Buy now */
 /* Burger menu */
