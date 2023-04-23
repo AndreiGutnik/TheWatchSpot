@@ -15,8 +15,8 @@
 
 .sale-watch-title {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 1;
+  font-size: 32px;
+  line-height: 1.25;
   letter-spacing: -0.02em;
   margin-bottom: 8px;
 }
@@ -38,7 +38,7 @@
 .sale-price {
   font-weight: 400;
   font-size: 18px;
-  line-height: 1, 33;
+  line-height: 1.33;
   letter-spacing: -0.02em;
 }
 
@@ -119,7 +119,7 @@
 
 @media screen and (min-width: 1280px) {
   .sale {
-    padding-bottom: 120px;
+    padding-bottom: 160px;
   }
   .section-title {
     margin-bottom: 80px;
@@ -127,7 +127,6 @@
   .sale-watch-wrap {
     width: 981px;
     display: flex;
-    justify-content: center;
     column-gap: 40px;
   }
 }
