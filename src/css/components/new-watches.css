@@ -24,11 +24,10 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    flex-basis: auto;
 }
 
 .new-watches-img{
-    width: 100%;
+    max-width: 100%;
     object-fit: cover;
 }
 
@@ -62,9 +61,6 @@
 
     .new-watches-list{
         gap: 24px;
-    }
-
-    .new-watches-img{ 
-        width: 576px;
+        flex-basis: auto;
     }
 }
