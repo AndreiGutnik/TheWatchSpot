@@ -71,9 +71,7 @@ body {
 }
 .nav-link {
   display: block;
-  font-family: 'Epilogue', sans-serif;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: var(--white);
@@ -113,9 +111,9 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  /* .container {
     width: 744px;
-  }
+  } */
   .menu-container.is-open {
     display: none;
   }
@@ -188,12 +186,6 @@ body {
   .address-link:focus {
     border-color: var(--white);
     transform: scale(1.05);
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .container {
-    width: 1216px;
   }
 }
 
