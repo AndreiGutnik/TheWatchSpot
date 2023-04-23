@@ -1,5 +1,5 @@
 .catalog{
-    position: relative;
+    padding-bottom: 80px;
 }
 .title{
     font-size: 32px;
@@ -22,7 +22,6 @@ font-weight: 400;
 line-height: 1.29;
 letter-spacing: -0.02em;
 text-align: left;
-margin-top: 57px;
 color: var(--black);
 }
 .price{font-family: 'Epilogue', sans-serif;
@@ -47,11 +46,12 @@ color: var(--black);
   
     
     .buy-button{
+        display: flex;
+        margin-right:  20px;
         padding: 14px 28px;
         color: var(--white);
         background-color: var(--dark-green);
         border-radius: 8px;
-        position: absolute;
         font-family: 'Epilogue', sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -59,18 +59,18 @@ color: var(--black);
         line-height: calc(14 / 12);
         text-align: center;
         text-transform: uppercase;
-        right: 20px;
-        bottom: 0;
-       
+       transition: color 250ms var(--action);
+       margin-left: auto;
     }
     .buy-button:hover,
     .buy-button:focus{
         transform: scale(1.1);
+        
     }
     .maincontainer{
         position: relative;
         width:100%;
-        height: 360px;
+        height: 360px; 
     }
     .thecard{
         position: absolute;
@@ -78,6 +78,7 @@ color: var(--black);
         height: 100%;
         transform-style: preserve-3d;
         transition: all 0.5s ease;
+   
     }
     .thecard:hover,
     .thecard:focus{
@@ -88,7 +89,8 @@ color: var(--black);
         width: 100%;
         height: 100%;
         backface-visibility: hidden;
-    }
+        padding-top: 26px;
+        padding-bottom: 75px;  }
     .theback{
         position: absolute;
         width: 100%;
@@ -98,6 +100,7 @@ color: var(--black);
         color: var(--white);
         transform: rotateY(180deg);
         padding: 40px;
+      
     }
     .name{
         font-family: 'Epilogue',sans-serif;
@@ -124,22 +127,28 @@ color: rgba(255, 255, 255, 0.5);
    
     /******************************************tablet***********************************************************************/
     @media screen and (min-width: 768px) {
+        .catalog{
+            padding-bottom: 128px;
+        }
         .watches-list{
         flex-direction: row;
-    row-gap: 40px;
-    column-gap: 32px;
+    gap: 40px 32px;
     justify-content: flex-start
     }
 .watches-item{flex-basis: calc((100% - 32px) / 2);}}
-    
+ 
 /******************************************desktop**************************************************************/
 @media screen and (min-width: 1280px) {
+    .catalog{
+        padding-bottom: 80px;
+    }
     .watches-item.desktop{
         display:block;
     }
 .watches-list{
 row-gap: 64px;
 column-gap: 24px;
+margin-bottom: 80px;
 }
 
 .watches-item{
@@ -149,7 +158,7 @@ column-gap: 24px;
     .title{
         margin-bottom: 64px;
     }
-  .watches-name{
-    margin-top: 39px;
-  }
+  
+ 
+  .buy-button{ margin-right: 132px;}
 }
