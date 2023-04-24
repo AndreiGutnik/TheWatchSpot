@@ -1,6 +1,6 @@
 .catalog{
     padding-top: 80px;
-    padding-bottom: 80px;
+    
 }
 .title{
     font-size: 32px;
@@ -133,12 +133,13 @@ color: rgba(255, 255, 255, 0.5);
         .thefront{
             padding: 43px 30px 57px 30px;
         }
-       
+       .maincontainer{width: 336px;
+    }
     }
 .watches-item{flex-basis: calc((100% - 32px) / 2);}
 @media screen and (min-width: 768px) and (max-width: 1279px){
     .catalog{padding-top: 128px;
-        padding-bottom: 128px;
+       
     }
 }
 /******************************************desktop**************************************************************/
@@ -157,7 +158,9 @@ margin-bottom: 80px;
     .title{
         margin-bottom: 64px;
     }
-.theback{
+.maincontainer{
+    width: 276px;
+    height: 325px;
     padding: 20px;
    
 }
