@@ -25,19 +25,10 @@ body.modal-open {
     pointer-events: none;
 }
 
-/* .modal-open-btn {
-    padding: 14px 28px;
-    background: var(--dark-green);
-    border-radius: 8px;
-    border-color: transparent;
-    font-size: 12px;
-    line-height: 1.17;
-    text-align: center;
-    text-transform: uppercase;
-    color: var(--white);
-} */
+
 
 .modal {
+  
     position: absolute;
     left: 50%;
     padding: 40px 20px;
@@ -153,8 +144,8 @@ body.modal-open {
     text-align: center;
     text-transform: uppercase;
     color: var(--white);
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border 250ms var(--action),
+            box-shadow 250ms var(--action);
 }
 
 .submit-btn:hover,
@@ -176,7 +167,82 @@ body.modal-open {
     text-decoration: underline;
 }
 
+@media screen and (max-width: 375px) {
+    .modal {
+        width: 90%;
+        max-height: 100%;
+        overflow-y: scroll;
+        padding: 20px;
+        left: 50%;
+        top: 50%;
+        background: #FFFFFF;
+        transform: translate(-50%, -50%);
+        box-shadow: none;
+    }
 
+    .modal-close-btn {
+        top: 12px;
+        right: 12px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .modal-form-input,
+    .modal-textarea {
+        height: 32px;
+        padding: 8px;
+        font-size: 12px;
+        line-height: 1.17;
+    }
+
+    .textarea-wraper {
+        margin-bottom: 20px;
+    }
+
+    .submit-btn {
+        padding: 16px 70px;
+        font-size: 10px;
+        line-height: 1.2;
+    }
+
+    .modal-watch-card {
+        width: 100%;
+        margin-bottom: 16px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .section-text {
+        font-size: 12px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        overflow: hidden;
+        white-space: normal;
+        text-overflow: ellipsis;
+    }
+
+    .price {
+        font-size: 10px;
+        line-height: 1.17;
+        letter-spacing: -0.02em;
+    }
+
+    .modal-form-label {
+        font-size: 12px;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        margin-bottom: 8px;
+    }
+
+    .modal-check {
+        font-size: 10px;
+        line-height: 1.2;
+    }
+
+    .privacy-link {
+        font-size: 10px;
+    }
+}
 
 @media screen and (min-width: 768px) {
     .backdrop {
