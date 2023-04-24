@@ -40,7 +40,7 @@
 }
 .tel:hover,
 .tel:focus {
-  scale: 1;
+  text-decoration: underline;
 }
 .map-link {
   font-style: normal;
@@ -52,7 +52,7 @@
 }
 .map-link:hover,
 .map-link:focus {
-  scale: 1;
+  text-decoration: underline;
 }
 .footer-nav-list {
   gap: 14px;
