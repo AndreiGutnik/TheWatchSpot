@@ -8,8 +8,6 @@
 @import url('./base/variables.css');
 @import url('./base/bases.css');
 @import url('./layout/header.css');
-/* Hero */
-/* Header */
 @import url('./components/hero.css');
 @import url('./components/aboutus.css');
 /* Catalog */
