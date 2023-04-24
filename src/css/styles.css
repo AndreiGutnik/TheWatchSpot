@@ -10,9 +10,8 @@
 @import url('./layout/header.css');
 @import url('./components/hero.css');
 @import url('./components/aboutus.css');
-/* Catalog */
+@import url('./components/catalog.css');
 /* New watches */
 @import url('./components/sale.css');
 @import url('./layout/footer.css');
 /* Buy now */
-/* Burger menu */
