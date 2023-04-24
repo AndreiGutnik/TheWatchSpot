@@ -1,2 +1,3 @@
-// import './js/'
-import './modal.js'
+import './mob-menu'
+import './hero-swiper'
+import './modal'
