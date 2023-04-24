@@ -10,7 +10,7 @@
 @import url('./layout/header.css');
 @import url('./components/hero.css');
 /* About us */
-/* Catalog */
+@import url('./components/catalog.css');
 /* New watches */
 @import url('./components/sale.css');
 /* Footer */
