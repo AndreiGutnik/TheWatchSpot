@@ -4,7 +4,7 @@
 .title{
     font-size: 32px;
     font-weight: 600;
-    line-height: 40px;
+    line-height: 1.25;
     letter-spacing: -0.02em;
     text-align: left;
     }
@@ -39,17 +39,13 @@ color: var(--black);
     .watches-item.desktop{
         display:none;
     }
-
-    
- 
-    
     .buy-button{
         display: flex;
-        margin-right:  20px;
         padding: 14px 28px;
         color: var(--white);
         background-color: var(--dark-green);
         border-radius: 8px;
+        height: 42px;
         font-family: 'Epilogue', sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -125,23 +121,28 @@ color: rgba(255, 255, 255, 0.5);
    
     /******************************************tablet***********************************************************************/
     @media screen and (min-width: 768px) {
-        .catalog{
-            padding-bottom: 128px;
-        }
         .watches-list{ display: flex;
             justify-content: center;
-        
             flex-wrap: wrap;  
-    gap: 40px 32px;
-    
+    gap: 40px 32px;}
+    .title{
+        font-size: 40px;
+        line-height: 1.1;
+        }
+        .buy-button{
+            padding: 18px 35px;
+            height: 50px;
+        }
     }
-.watches-item{flex-basis: calc((100% - 32px) / 2);}}
- 
+.watches-item{flex-basis: calc((100% - 32px) / 2);}
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    .catalog{
+        padding-bottom: 128px;
+    }
+}
 /******************************************desktop**************************************************************/
 @media screen and (min-width: 1280px) {
-    .catalog{
-        padding-bottom: 80px;
-    }
+  
     .watches-item.desktop{
         display:block;
     }
@@ -156,8 +157,5 @@ margin-bottom: 80px;
     flex-basis: calc((100% - 24px * 3) / 4);}
     .title{
         margin-bottom: 64px;
-    }
+    }}
   
- 
-  .buy-button{ margin-right: 132px;}
-}
