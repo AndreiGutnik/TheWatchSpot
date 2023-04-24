@@ -61,7 +61,7 @@
 }
 
 body {
-    background-color: var(--white);
+    background-color: var(--main-background);
     color: var(--black);
     font-family: 'Epilogue', sans-serif;
     font-size: 14px;
@@ -72,15 +72,28 @@ body {
   margin: 0 auto;
 }
 
+.section-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--dark-green);
+  margin-bottom: 40px;
+}
+
 @media screen and (max-width: 767px) {
   .container {
-    width: 375px;
+    max-width: 375px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    width: 744px;
+  }
+  .section-title {
+    font-size: 40px;
+    line-height: 1.1;
   }
 }
 
@@ -88,15 +101,6 @@ body {
   .container {
     width: 1216px;
   }
-}
-
-.section-title {
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 1.1;
-  letter-spacing: -0.02em;
-  color: var(--dark-green);
-  margin-bottom: 40px;
 }
 
 .text {

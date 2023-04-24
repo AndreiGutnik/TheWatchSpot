@@ -1,5 +1,59 @@
 <header class="header">
-  <div class="container">
-		
-	</div>
+  <div class="header-container container">
+    <nav class="header-nav">
+      <a class="logo-header" href="./index.html">
+        <svg class="logo-icon" width="14" height="14">
+          <use href="./images/icons.svg#icon-logo-cropped"></use>
+        </svg>
+        <span class="logo">thewatchspot</span>
+      </a>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About us</a>
+        </li>
+        <li class="nav-item">
+          <a href="#catalog" class="nav-link">Catalog</a>
+        </li>
+        <li class="nav-item">
+          <a href="#sale" class="nav-link">sale</a>
+        </li>
+      </ul>
+    </nav>
+    <button type="button" class="menu-btn" data-menu-open>
+      <svg class="open-menu" width="24" height="24">
+        <use href="./images/icons.svg#icon-gg_menu"></use>
+      </svg>
+    </button>
+    <address class="header-address">
+      <a class="address-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+    </address>
+  </div>
+  <div class="mob-menu" data-menu>
+    <div class="mobile-menu container">
+      <button type="button" class="menu-btn close-btn" data-menu-close>
+        <svg class="close-menu" width="24" height="24">
+          <use href="./images/icons.svg#icon-x"></use>
+        </svg>
+      </button>
+      <nav class="mob-nav">
+        <a class="logo-header" href="./index.html">
+          <svg class="logo-icon" width="14" height="14">
+            <use href="./images/icons.svg#icon-logo-cropped"></use>
+          </svg>
+          <span class="logo">thewatchspot</span>
+        </a>
+        <ul class="mob-nav-list">
+          <li class="mob-nav-item">
+            <a href="#about" class="mob-nav-link" data-menu-close1>About us</a>
+          </li>
+          <li class="mob-nav-item">
+            <a href="#catalog" class="mob-nav-link" data-menu-close2>Catalog</a>
+          </li>
+          <li class="mob-nav-item">
+            <a href="#sale" class="mob-nav-link" data-menu-close3>sale</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 </header>
