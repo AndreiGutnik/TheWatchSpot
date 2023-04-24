@@ -95,6 +95,9 @@
   .section-title {
     color: var(--black);
   }
+  img{
+		max-width: 100%;
+	}
 }
 
 @media screen and (max-width: 1279px) {
