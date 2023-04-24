@@ -13,12 +13,13 @@
 .footer-logo-nav-div {
   display: flex;
   justify-content: space-between;
-}
-.logo-div {
   margin-bottom: 40px;
 }
+.footer-logo-soc-div {
+  margin-bottom: 80px;
+}
 .logo-link {
-  display: block;
+  display: inline-block;
   margin-bottom: 40px;
 }
 .logo-icon {
@@ -33,7 +34,6 @@
 .tel {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.29;
   text-transform: uppercase;
   display: block;
@@ -45,7 +45,6 @@
 .map-link {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   margin-top: 20px;
@@ -71,16 +70,13 @@
 }
 .footer-soc-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 14px;
-  margin-bottom: 80px;
 }
 .footer-soc-link {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8px;
-  gap: 8px;
   isolation: isolate;
   width: 40px;
   height: 40px;
@@ -122,11 +118,14 @@
   .footer-div {
     padding: 80px 20px 20px;
   }
+  .footer-logo-nav-div {
+    gap: 142px;
+    margin-bottom: 0;
+  }
   .footer-logo-soc-div {
     display: flex;
-  }
-  .logo-div {
     margin-bottom: 152px;
+    gap: 142px;
   }
   .logo-icon {
     width: 50px;
@@ -140,21 +139,21 @@
     font-size: 18px;
     line-height: 1.33;
   }
-  .footer-nav {
-    margin-left: 142px;
-  }
   .footer-nav-list-item {
     font-size: 18px;
     line-height: 1.33;
     margin-bottom: 18px;
   }
-  .footer-soc-div {
+  .footer-soc-list {
     gap: 16px;
-    margin-left: 142px;
   }
   .footer-soc-link {
     width: 44px;
     height: 44px;
+  }
+  .footer-soc-icon {
+    width: 28px;
+    height: 28px;
   }
   .footer-down-text {
     font-size: 14px;
@@ -172,14 +171,12 @@
   .footer-div {
     padding: 104px 20px 32px;
   }
-  .logo-div {
+  .footer-logo-nav-div {
+    gap: 355px;
+  }
+  .footer-logo-soc-div {
     margin-bottom: 174px;
-  }
-  .footer-nav {
-    margin-left: 355px;
-  }
-  .footer-soc-div {
-    margin-left: 401px;
+    gap: 401px;
   }
   .copy {
     margin: 0 680px 0 0;
