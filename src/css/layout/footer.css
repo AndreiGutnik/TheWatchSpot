@@ -18,15 +18,12 @@
   margin-bottom: 40px;
 }
 .logo-link {
-  display: flex;
+  display: block;
   margin-bottom: 40px;
 }
 .logo-icon {
-  position: relative;
-  width: 70px;
-  height: 70px;
-  right: 15px;
-  bottom: 12px;
+  width: 40px;
+  height: 40px;
   fill: #fff;
 }
 .logo-icon:hover,
@@ -132,9 +129,8 @@
     margin-bottom: 152px;
   }
   .logo-icon {
-    width: 90px;
-    height: 90px;
-    right: 20px;
+    width: 50px;
+    height: 50px;
   }
   .tel {
     font-size: 18px;
