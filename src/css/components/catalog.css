@@ -50,12 +50,12 @@ color: var(--black);
         line-height: calc(14 / 12);
         text-align: center;
         text-transform: uppercase;
-       transition: color 250ms var(--action);
+       transition: transform 250ms var(--action);
        margin-left: auto;
     }
     .buy-button:hover,
     .buy-button:focus{
-        transition: scale(1.1);
+        transform: scale(1.1);
         
     }
     .maincontainer{
