@@ -63,4 +63,8 @@
         gap: 24px;
         flex-basis: auto;
     }
+
+    .new-watches-img{
+        max-width: 576px;
+    }
 }
