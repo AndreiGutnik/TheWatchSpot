@@ -63,13 +63,17 @@
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  margin-bottom: 14px;
+
   transition-duration: 250ms;
   transition-timing-function: var(--action);
 }
 .footer-nav-list-item:hover,
 .footer-nav-list-item:focus {
   scale: 1.1;
+}
+.footer-nav-about,
+.footer-nav-catalog {
+  margin-bottom: 14px;
 }
 .footer-soc-list {
   display: flex;
@@ -145,6 +149,9 @@
   .footer-nav-list-item {
     font-size: 18px;
     line-height: 1.33;
+  }
+  .footer-nav-about,
+  .footer-nav-catalog {
     margin-bottom: 18px;
   }
   .footer-soc-list {
