@@ -16,6 +16,7 @@ body.modal-open {
     overflow-y: scroll;
     transition: opacity, visibility;
     transition: transform 250ms cubic-bezier var(--action);
+    z-index: 2;
     
 }
 
