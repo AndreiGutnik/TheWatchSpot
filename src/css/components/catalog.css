@@ -118,7 +118,7 @@ color: rgba(255, 255, 255, 0.5);
         .watches-list{ display: flex;
             justify-content: center;
             flex-wrap: wrap;  
-    gap: 40px 32px;}
+    gap: 40px 32px}
     .title{
         font-size: 40px;
         line-height: 1.1;
