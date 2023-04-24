@@ -1,0 +1,136 @@
+.sale {
+  padding-bottom: 80px;
+}
+
+.sale-watch-images {
+  display: flex;
+  column-gap: 20px;
+}
+
+.sale-watch-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.sale-watch-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.watch-article {
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+  margin-bottom: 16px;
+}
+
+.price-list {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.sale-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+
+.full-price {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-decoration-line: line-through;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.description-title-wrap {
+  position: relative;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 40px;
+  margin-bottom: 9px;
+}
+
+.watch-description-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.line::before {
+  position: absolute;
+  top: 0;
+  content: '';
+  width: 100%;
+  border-top: 1px solid var(--black);
+}
+
+.line::after {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  content: '';
+  width: 16px;
+  border-top: 1px solid var(--black);
+}
+
+.description-text {
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.01em;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+@media screen and (max-width: 767px) {
+  .section-title {
+    color: var(--black);
+  }
+  img{
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 1279px) {
+  .sale-watch-images {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sale {
+    padding-bottom: 128px;
+  }
+  .sale-watch-wrap {
+    width: 572px;
+    margin: 0 auto;
+  }
+  .sale-watch-title {
+    font-size: 38px;
+    line-height: 1.05;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sale {
+    padding-top: 80px;
+    padding-bottom: 160px;
+  }
+  .section-title {
+    margin-bottom: 80px;
+  }
+  .sale-watch-wrap {
+    width: 981px;
+    display: flex;
+    column-gap: 40px;
+  }
+}
