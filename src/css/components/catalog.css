@@ -161,7 +161,7 @@ margin-bottom: 80px;
 .maincontainer{
     width: 276px;
     height: 325px;
-    padding: 20px;
+    
    
 }
 .description{
@@ -170,5 +170,6 @@ margin-bottom: 80px;
 .thefront{
     padding: 26px 0 25px 0;
 }
+.theback{padding: 20px;}
 }
   
