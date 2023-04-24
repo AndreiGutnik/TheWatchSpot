@@ -55,7 +55,7 @@ color: var(--black);
     }
     .buy-button:hover,
     .buy-button:focus{
-        transform: scale(1.1);
+        transition: scale(1.1);
         
     }
     .maincontainer{
