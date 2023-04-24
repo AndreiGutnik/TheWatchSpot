@@ -54,13 +54,16 @@
 .map-link:focus {
   scale: 1;
 }
+.footer-nav-list {
+  gap: 14px;
+}
 .footer-nav-list-item {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
   transition-duration: 250ms;
   transition-timing-function: var(--action);
 }
