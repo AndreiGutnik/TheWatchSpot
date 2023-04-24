@@ -1,4 +1,5 @@
 .catalog{
+    padding-top: 80px;
     padding-bottom: 80px;
 }
 .title{
@@ -61,7 +62,7 @@ color: var(--black);
         position: relative;
         width:100%;
         height: 360px; 
-      
+      margin-bottom: 18px;
     }
     .thecard{
         position: absolute;
@@ -133,10 +134,12 @@ color: rgba(255, 255, 255, 0.5);
         .thefront{
             padding: 43px 30px 57px 30px;
         }
+        .maincontainer{
+        margin-bottom: 57px;}
     }
 .watches-item{flex-basis: calc((100% - 32px) / 2);}
 @media screen and (min-width: 768px) and (max-width: 1279px){
-    .catalog{
+    .catalog{padding-top: 128px;
         padding-bottom: 128px;
     }
 }
@@ -165,5 +168,8 @@ margin-bottom: 80px;
 }
 .thefront{
     padding: 26px 0 25px 0;
+}
+.maincontainer{
+    margin-bottom: 39px;
 }}
   
