@@ -69,7 +69,7 @@ color: var(--black);
         height: 100%;
         transform-style: preserve-3d;
         transition: all 0.5s ease;
-        padding: 43px 30px;
+        
     }
     .thecard:hover,
     .thecard:focus{
@@ -80,6 +80,7 @@ color: var(--black);
         width: 100%;
         height: 100%;
         backface-visibility: hidden;
+        padding: 43px 30px;
       }
     .theback{
         position: absolute;
@@ -129,6 +130,9 @@ color: rgba(255, 255, 255, 0.5);
             padding: 18px 35px;
             height: 50px;
         }
+        .thefront{
+            padding: 43px 30px 57px 30px;
+        }
     }
 .watches-item{flex-basis: calc((100% - 32px) / 2);}
 @media screen and (min-width: 768px) and (max-width: 1279px){
@@ -158,5 +162,8 @@ margin-bottom: 80px;
 }
 .description{
     margin-bottom: 20px;
+}
+.thefront{
+    padding: 26px 0 25px 0;
 }}
   
