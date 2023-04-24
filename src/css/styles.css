@@ -7,8 +7,8 @@
 @import url('./base/reset.css');
 @import url('./base/variables.css');
 @import url('./base/bases.css');
-/* Header */
-/* Hero */
+@import url('./layout/header.css');
+@import url('./components/hero.css');
 @import url('./components/aboutus.css');
 /* Catalog */
 /* New watches */
