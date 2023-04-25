@@ -29,7 +29,7 @@
 }
 .logo-icon:hover,
 .logo-icon:focus {
-  scale: 1;
+  transform: scale(1);
 }
 .tel {
   font-style: normal;
@@ -54,22 +54,21 @@
 .map-link:focus {
   text-decoration: underline;
 }
-.footer-nav-list {
-  gap: 14px;
-}
 .footer-nav-list-item {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  margin-bottom: 14px;
-  transition-duration: 250ms;
-  transition-timing-function: var(--action);
+  transform: scale(1);
+  transition: transform 250ms var(--action);
+}
+.footer-nav-list-item + .footer-nav-list-item {
+  margin-top: 14px;
 }
 .footer-nav-list-item:hover,
 .footer-nav-list-item:focus {
-  scale: 1.1;
+  transform: scale(1.1);
 }
 .footer-soc-list {
   display: flex;
@@ -85,12 +84,12 @@
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  transition-duration: 250ms;
-  transition-timing-function: var(--action);
+  transform: scale(1);
+  transition: transform 250ms var(--action);
 }
 .footer-soc-link:hover,
 .footer-soc-link:focus {
-  scale: 1.1;
+  transform: scale(1.1);
 }
 .footer-soc-icon {
   fill: #fff;
@@ -145,7 +144,9 @@
   .footer-nav-list-item {
     font-size: 18px;
     line-height: 1.33;
-    margin-bottom: 18px;
+  }
+  .footer-nav-list-item + .footer-nav-list-item {
+    margin-top: 14px;
   }
   .footer-soc-list {
     gap: 16px;
@@ -169,7 +170,6 @@
     margin-right: 18px;
   }
 }
-
 @media screen and (min-width: 1280px) {
   .footer-div {
     padding: 104px 20px 32px;
