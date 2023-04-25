@@ -29,7 +29,7 @@
 }
 .logo-icon:hover,
 .logo-icon:focus {
-  scale: 1;
+  transform: scale(1);
 }
 .tel {
   font-style: normal;
@@ -68,7 +68,7 @@
 }
 .footer-nav-list-item:hover,
 .footer-nav-list-item:focus {
-  scale: 1.1;
+  transform: scale(1.1);
 }
 .footer-soc-list {
   display: flex;
@@ -89,7 +89,7 @@
 }
 .footer-soc-link:hover,
 .footer-soc-link:focus {
-  scale: 1.1;
+  transform: scale(1.1);
 }
 .footer-soc-icon {
   fill: #fff;
