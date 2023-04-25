@@ -19,6 +19,7 @@ text-align: left;
 color: var(--black);
 }
 .price{
+    margin-top: 4px;
     font-weight: 400;
     font-size: 12px;
     line-height: calc(14 / 12);
@@ -41,6 +42,7 @@ color: var(--black);
         padding: 14px 28px;
         color: var(--white);
         background-color: var(--dark-green);
+        border-color: transparent;
         border-radius: 8px;
         height: 42px;
      font-family: 'Epilogue', sans-serif;
@@ -50,14 +52,17 @@ color: var(--black);
         line-height: calc(14 / 12);
         text-align: center;
         text-transform: uppercase;
-       transition: transform 250ms var(--action);
-       margin-left: auto;
+        border-color: transparent;
+        margin-left: auto;
+        transform: scale(1);
+        transition: transform 250ms var(--action);
     }
+
     .buy-button:hover,
     .buy-button:focus{
         transform: scale(1.1);
-        
-    }
+    }        
+    
     .maincontainer{
         position: relative;
         width:100%;
